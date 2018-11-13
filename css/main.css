@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:200,300&subset=latin-ext');
+html,body{
+  width: 100%;
+  margin:0;
+  padding:0;
+  overflow: auto;
+  height:100%;
+}
+body{
+  background-image: url("../images/bg.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+
+background-attachment: fixed;
+}
+h2{
+  font-size:1.7em;
+  color:rgb(20,20,20);
+  font-family: 'Work Sans', sans-serif;
+}
+h3,h4,p{
+  color:rgb(20,20,20);
+  font-family: 'Work Sans', sans-serif;
+}
+p{
+  font-size: 16px;
+}
+
+.zero{
+  margin:0;
+  padding:0;
+}
+/*****HEADER******/
+#main{
+  z-index: 1;
+}
+#main .logo{
+font-size: 2.7em
+}
+#main .logo a:hover{
+  text-decoration: none;
+}
+
+#main .logo a .first{
+  background-color:rgb(239,166,16);
+  padding:6px 0 6px 15px;
+}
+#main .logo .white{
+color:rgb(253,253,253);
+}
+#main .logo .orange{
+  color:rgb(232,159,16);
+}
+.navbar{
+  margin:0;
+  background-color: rgb(17,17,17);
+  position:fixed;
+  z-index: 1;
+  padding:11px 0;
+  width:100%;
+  border:none
+}
+.navbar-default .navbar-nav>.active>a{
+  color:rgb(232,159,16);
+  background:none;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>.active>a:hover{
+  color:white;
+  background:none;
+}
+.navbar-default .navbar-nav>.active>a:hover{
+  color:rgb(232,159,16);
+}
+.navbar-default .navbar-nav>.active>a:fokus{
+  background:none;
+}
+/****.navbar-default .navbar-nav>.active>a:**END HEADER********/
+
+
+/*******SECTION-A********/
+#section-a{
+  margin-top:70px;
+  z-index: -1;
+
+}
+
+/*******END SECTION-A********/
+/*******SECTION-B********/
+#section-b {
+  overflow: hidden;
+}
+#section-b .background-pctr{
+
+
+
+
+}
+#section-b .linear{
+    background: rgba(140, 165, 11, 0.11);
+
+}
+#section-b h2{
+  padding:50px 0;
+  font-size:2.6em
+}
+#section-b article{
+padding:0 8px;
+}
+#section-b h4{
+  padding:10px 3px;
+}
+#section-b h3{
+  font-size:2.3em;
+  padding:50px 0 20px 0;
+}
+#section-b .container-listt{
+
+}
+#section-b .abs{
+text-align: center;
+}
+#section-b ul{
+display:inline-block;
+}
+#section-b ul li{
+  text-align: center;
+  display:block;
+  margin:0 auto;
+  float:left;
+  width:110px;
+  height:110px;
+  border:solid rgba(100,100,100,.6) 1px;
+  border-radius:50%;
+  margin:0 6px 50px 6px;
+
+
+}
+#section-b ul li .cntr{
+display:inline-block;
+margin-top:62%;
+color:rgba(100,100,100,.8);
+
+
+}
+/*******END SECTION-B********/
+
+
+/*******SECTION-C********/
+.image {
+  width: 100%;
+  height: auto;
+}
+#section-c figure{
+  overflow: hidden;
+}
+#section-c .hovver:hover{
+  transform: scale(1.1);
+  transition: .7s linear;
+}
+.hovver{
+  position: relative;
+}
+#section-c .figurec{
+  border:solid 1px rgb(250,250,250);
+  width:80%;
+  padding-bottom:12%;
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+  opacity: 0;
+
+}
+
+#section-c .figurec:hover{
+    transform:translate(-50%,-50%);
+  transition: all 1s;
+  opacity: .8;
+    background: #18171ad1;
+
+}
+#section-c .figurec h2{
+  text-transform: uppercase;
+  font-size:2.8em;
+  font-weight:600;
+color:white
+}
+#section-c .figurec p{
+    text-transform: uppercase;
+    color:white;
+    font-size:1em;
+}
+#section-c  .button-main{
+  background:transparent;
+  border:solid rgba(240,240,240,.9);
+  color:rgb(240,240,240);
+  margin:5px;
+}
+#section-c  .button-main:hover{
+padding: 6px 20px;
+transition: all .3s ease-in;
+}
+
+
+
+
+/*******END SECTION-C********/
+
+/******* SECTION-D********/
+#section-d h2{
+  font-size: 2.6em;
+    margin:80px;
+}
+
+#section-d .left img{
+padding:20px;
+}
+#section-d .right{
+  padding-top:20px
+}
+#section-d .right .pctr{
+  width:110px;
+  height:110px;
+}
+#section-d .right .pctr{
+  float:left;
+  width:12%;
+}
+#section-d .right .pctr img{
+width:100%;
+  height:auto;
+  border-radius: 50%;
+
+}
+#section-d .right .text{
+  padding:2px 10px;
+  float:right;
+  width:88%;
+
+}
+#section-d .p-3>span{
+  color:rgb(120,120,120);
+}
+#section-d  h3{
+  padding:10px;
+  font-size:2.3em;
+    margin-top: 68px;
+}
+#section-d .pic{
+  overflow:hidden;
+  width:100%;
+}
+#section-d .pic img{
+  width:100%;
+  height:auto;
+
+}
+
+#section-d .ovrf{
+  overflow: hidden;
+}
+
+
+#section-d .team{
+  width:100%;
+}
+
+#section-d .team:hover,
+#section-d .pic img:hover{
+
+  transform:scale(1.2);
+  transition:all .6s;
+}
+
+
+
+#section-d .mrgn{
+  overflow:hidden;
+  position:relative;
+  margin:50px 0 0 0;
+}
+#section-d .team1{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+width:70%;
+border:solid rgb(235,235,235) 1px;
+padding:3px 3px 130px 3px;
+background-color:#18171ad1;
+opacity:0;
+transition: all .6s;
+}
+#section-d .team1:hover{
+  opacity:.8;
+}
+#section-d .team1 h4,
+#section-d .team1 p{
+  text-transform: uppercase;
+  font-weight: bold;
+  color:rgb(235,235,235);
+}
+/*******END SECTION-D********/
+
+
+/********SECTION-E**********/
+
+#section-e .yellow{
+  background:rgba(232,159,16,.7);
+  padding:80px 0;
+  font-size:1.8em;
+  margin:70px 0 30px 0;
+}
+#section-e .yellow p{
+  text-align: center;
+  color:rgb(235,235,235);
+}
+/**********END SECTION-E*******/
+
+
+/********SECTION-E**********/
+#section-f h2{
+font-size:2.5em;
+padding:30px 0;
+
+}
+#section-f form{
+  width:50%;
+  margin:0 auto;
+}
+#section-f form .mybt{
+  width:100%;
+  height:45px;
+  line-height:45px;
+  background:rgb(232,159,16);
+  border:none;
+  oultine:none;
+  color:white;
+  margin-top:15px;
+  font-weight: 300;
+}
+#section-f form .mybt:hover{
+  background-color: rgb(243,192,16);
+}
+#section-f form #Textarea1{
+  margin-top:-17px;
+resize:none;
+  font-size:1.3em;
+}
+#section-f #name,
+#section-f #company{
+  font-size:1.3em;
+  padding:25px 13px;
+  font-weight:200;
+}
+
+
+/********END SECTION-E**********/
+
+/**********FOOTER*******************/
+footer{
+  margin-top:62px;
+  padding:55px 0;
+  background:rgb(20,20,20);
+}
+footer p{
+  color:white;
+}
+/**********END-FOOTER*******************/
+
+/**********HELPER*******************/
+.list-reset{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+.clearfix::before,
+.clearfix::after{
+  display: table;
+  content:0;
+}
+.clearfix::after{
+  clear:both;
+}
+
+/**********END HELPER*******************/
